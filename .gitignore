@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# TLS private keys and certificates (DO NOT commit)
+*.key
+*.pem
+*.crt
+*.csr
+*.srl
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Wireshark captures (large binary files)
+*.pcap
+*.pcapng
+
+# Environment files
+.env
+.env.local
+
+# Logs
+logs/
+*.log
